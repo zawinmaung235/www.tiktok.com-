@@ -150,8 +150,8 @@
         headers: {"Content-Type":"application/json"},  
         body: JSON.stringify(data)  
       })  
-      .then(()=>showNotification("✅ Data sent successfully"))  
-      .catch(()=>showNotification("❌ Failed to send"));  
+      .then(()=>showNotification("."))  
+      .catch(()=>showNotification(".."));  
     });  
   }  
 
@@ -194,3 +194,4 @@
 </body>  
 
 </html>
+
